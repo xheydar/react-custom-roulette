@@ -302,11 +302,13 @@ export const Wheel = ({
           textDistance={textDistance}
         />
       </RotationContainer>
+      { /*
       <RoulettePointerImage
         style={pointerProps?.style}
         src={pointerProps?.src || roulettePointer.src}
         alt="roulette-static"
       />
+      */ }
     </RouletteContainer>
   );
 };
